@@ -1,0 +1,38 @@
+/*EXPLICACION
+	
+	Las variables van a estar contenida con un nombre que simbolice lo que que contiene.
+	todas variable inicia con _nombrevariable.scss. 
+	luego exportara a estilos.scss escribiendo import "variables"--> sin _ ni extensión: 
+
+	Ejemplo:
+		@import "variables";
+
+	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+	// DECLARACIÓN SINTAXIS
+
+
+// COLORES-------------------------------------------------------------------------------------
+// PALETA 1
+	$v_color1: #ffcb74;
+	$v_color2: #b1b493; 
+	$v_color3: #4f8a8b;
+	$v_color4: #07031a;
+
+
+// PALETA 2
+	$v1_color1: #ffc4a3;
+	$v1_color2: #ff9a76; 
+	$v1_color3: #f96d80;
+	$v1_color4: #bb596b;
+
+
+
+
+
+
+
+
+
+

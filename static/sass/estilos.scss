@@ -1,0 +1,46 @@
+/*INSTALAR Y CORRER sass en CMD -> 
+
+		1. gem install sass --> Instalar sas
+		2. sass --version  --> Version
+		3. En sublimetext --> instalar SassBeauty 
+		4. sass --watch sass:css
+
+	PLUGINS+++++++++++++++++++++++++++++++++++++++++++
+		
+		- SassBeauty
+		- Color Highlighter
+		- Syntax Highlighting for Sass
+
+	++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+@import "variables";
+
+
+header{
+ 	// aqui todo el contenido del header
+ 	//Invocar una variable... background:$colorUno;
+}	
+
+
+.informacion{
+	
+	.pepino{
+		color: $v_color4;
+ 	}
+
+}
+
+
+body{
+ 	// aqui todo el contenido del body
+}
+
+
+footer{
+	// aqui todo el contenido del footer
+}
+
+
+
+

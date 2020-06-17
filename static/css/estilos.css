@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/*INSTALAR Y CORRER sass en CMD -> 
+
+		1. gem install sass --> Instalar sas
+		2. sass --version  --> Version
+		3. En sublimetext --> instalar SassBeauty 
+		4. sass --watch sass:css
+
+	PLUGINS+++++++++++++++++++++++++++++++++++++++++++
+|
+		- SassBeauty
+		- colorhelper
+		- Syntax Highlighting for Sass
+
+	++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*EXPLICACION
+
+	Las variables van a estar contenida con un nombre que simbolice lo que que contiene.
+	todas variable inicia con _nombrevariable.scss. 
+	luego exportara a estilos.scss escribiendo import "variables"--> sin _ ni extensión: 
+
+	Ejemplo:
+		@import "variables";
+
+	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+.informacion .pepino {
+  color: #07031a;
+}
+
+/*# sourceMappingURL=estilos.css.map */
