@@ -1,132 +1,19 @@
-<!doctype html>
-<html lang="es">
-  <head>
-    <!-- hackerthemes.com -->
-    <!-- Required meta tags -->
+{% extends "base.html" %}
+{% block title %}
+index
+{% endblock %}
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-                    <!--edirecciona a folder static y dentro busca css y los estilos-->
-    <link rel="stylesheet" href="{{ url_for('static', filename='/css/main.css')}}">
-  
-    <title>Hello, world!</title>
-    </head>
-
-  <body onload="actualizaReloj()">
-
-<div class="container-fluid">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-</div>
-
+{% block content %}
+<h1>{{ titulo }}</h1>
 
 <div class="container">
-    <img src="../static/img/flamenco.png" alt="">
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum et, dolorem commodi reiciendis nihil, numquam, placeat incidunt quaerat quae sit quos. Molestiae inventore distinctio voluptatum nemo itaque, quos at voluptatem!</div>
+    <div>Sapiente corrupti earum totam a facilis quos excepturi sint nostrum assumenda suscipit enim, quas fugit modi quo tempora consectetur eum saepe eos eligendi quaerat reprehenderit itaque expedita. Eum, asperiores accusantium.</div>
+    <div>Veritatis libero officia quod reprehenderit, eaque molestiae, illum tempora repellendus laboriosam voluptatibus voluptate ea sint vero tempore error nemo placeat. Quisquam voluptatem harum saepe repellat repellendus quia ipsam, possimus impedit.</div>
 </div>
+{% endblock %}
 
 
-	
-<div class="container">
-	<h1>HOLA MUNDO</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, qui, nobis! Doloremque recusandae accusamus aut veritatis facilis eaque ex voluptatibus quaerat consequatur, odio perferendis dolores placeat debitis totam voluptatum corporis.</p>
-
-    <button class="btn btn-success">HOLA</button>
-</div>
-
-
-
-
-
-<!--Este orden
-jQuery, Popper.js, Bootstrap JS -->
-
-    
-    <script src="{{ url_for('static', filename='/js/jquery.js')}}"></script>
-    <script src="{{ url_for('static', filename='/js/popper.js')}}"></script>
-    <script src="{{ url_for('static', filename='/js/bootstrap.js')}}"></script>
-    <script src="{{ url_for('static', filename='/js/reloj.js')}}"></script>
-    <script src="{{ url_for('static', filename='/js/Animate.js')}}"></script>
-<!--     <script src="../statics/js/jquery.js"></script>
-    <script src="../statics/js/popper.js"></script>
-    <script src="../statics/js/bootstrap.js"></script> -->
-    
-
-<!--Scroll arriba -->
-    <a href="#0" class="cd-top">Top</a>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="{{ url_for('static', filename='/js/main.js')}}"></script>
-<!--Fin scroll arriba -->
-
-<!-- script Reloj & script animate.js  -->
-    <script src="../statics/js/reloj.js"></script>
-    <script src="../statics/js/Animate.js"></script>
-<!-- Fin script animate.js -->
-
-    <!-- SOLO PARA EL CURSO DE JS SE PUEDE BORRAR-->
-    <script src="../statics/js/jstest.js"></script>
-
-
-  </body>
-</html>
-
+{% block chuleta %}
+<h1>care pepino</h1>
+{% endblock %}

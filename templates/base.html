@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <!-- hackerthemes.com -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--redirecciona a folder static y dentro busca css y los estilos-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/main.css')}}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favipyt.png')}}">   
+    <title>{% block title %} {{ title }} {% endblock %}</title>
+    </head>
+
+<body oload="actualizaReloj()">
+
+<!-- Aqui solo muestra lo que esté contenido dentro del extend -->
+{% block content %}
+
+{% endblock %}
+
+<!-- Cada bloque tiene que tener un nombre diferente -->
+{% block chuleta %}
+{% endblock %}
+
+
+
+
+<!--Este orden jQuery, Popper.js, Bootstrap JS -->
+    <script src="{{ url_for('static', filename='/js/jquery.js')}}"></script>
+    <script src="{{ url_for('static', filename='/js/popper.js')}}"></script>
+    <script src="{{ url_for('static', filename='/js/bootstrap.js')}}"></script>
+    <script src="{{ url_for('static', filename='/js/reloj.js')}}"></script>
+    <script src="{{ url_for('static', filename='/js/Animate.js')}}"></script>
+    <!-- <script src="../statics/js/jquery.js"></script>
+    <script src="../statics/js/popper.js"></script>
+    <script src="../statics/js/bootstrap.js"></script> -->
+
+    <!--Scroll arriba -->
+      <a href="#0" class="cd-top">Top</a>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="{{ url_for('static', filename='/js/main.js')}}"></script>
+    <!--Fin scroll arriba -->
+
+    <!-- script Reloj & script animate.js  -->
+      <script src="../statics/js/reloj.js"></script>
+      <script src="../statics/js/Animate.js"></script>
+    <!-- Fin script animate.js -->
+
+    <!-- SOLO PARA EL CURSO DE JS SE PUEDE BORRAR-->
+      <script src="../statics/js/jstest.js"></script>
+  </body>
+</html>
+

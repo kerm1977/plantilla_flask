@@ -24,7 +24,10 @@ class Posts(db.Model):
 
 @app.route("/") 		
 def index():
-	return render_template("index.html")	
+	titulo = "Pepino" # Declara una variable. El titulo pepino se asigna dentro del h1 del body
+	lista = ["footer", "header", "info"]
+	return render_template("index.html", titulo=titulo, lista=lista)	
+									    #variable valor asignado arriba.
 
 #agregar un registro.
 @app.route("/insert/default")
